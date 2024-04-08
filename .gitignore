@@ -1,3 +1,8 @@
-out/
-lib/
-.idea/
+# Ignore everything by default
+*
+
+# Allow directories named "src"
+!src/
+
+# Allow files within directories named "src"
+!src/*
